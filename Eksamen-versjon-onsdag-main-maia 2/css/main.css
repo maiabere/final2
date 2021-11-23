@@ -1,0 +1,225 @@
+ :root {
+  --clr-1--: #c0bdbb;
+
+  --clr-2--: #dde2e2;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+header {
+  width: 100%;
+  height: auto;
+}
+
+body{
+overflow-x:hidden;
+max-width: 100%;
+}
+
+
+ header, body {
+  font-family: 'Open sans', Arial, Helvetica, sans-serif ;
+  font-weight: 400;
+  font-size: 1.3125rem;
+  line-height: 1.6;
+  background-image: url("abc");
+}
+
+h1,
+h2,
+h3 {
+ font-family: 'Merriweather', Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  line-height: 1;
+  text-align:center;
+}
+h1, 
+h2,
+h3,
+p {
+  margin-bottom: 1em;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+
+
+
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  flex-flow: row wrap;
+  font-size: 1.5rem;
+  font-weight: 700;
+  width: 100%;
+  background-color:#d8cfd0;
+  font-family: 'Poppins', sans-serif;
+    
+}
+
+
+nav li{
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  border: 1px solid;
+  box-sizing: border-box;
+  flex: 1 0 0;
+  min-width: 10rem;
+}
+
+
+
+
+nav li:hover{
+  background-color: #dcdcde;
+  color: black;
+}
+
+.active {
+  background-color: #b1a6a4;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 1);
+}
+
+ img {
+  display: block;
+  max-width: 100%;
+}
+
+
+.container {
+  display:flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: min(90%, 70.5rem);
+  }
+
+  .container img{
+        margin: 2rem 0;
+      }
+
+
+.part1 {
+  background-color: #ffffff;
+  
+}
+
+
+
+.part2 {
+  background-color: #ffffff;
+}
+
+.part3{
+  
+  background-color: #ffffff;
+}
+
+.part4{
+  
+  background-color: #812424;
+}
+
+.welcome {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.text-block {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  background-color: black;
+  color: white;
+  
+}
+
+footer{
+  background-color: #dcdcde;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  font-size: 25px;
+  padding: 30px;
+  box-sizing: border-box;
+  font-family: 'Open sans', Arial, Helvetica, sans-serif
+}
+
+.fa{
+  display: inline-block;
+  padding: 15px;
+  font-size: 25px;
+  border-radius: 50%;
+  text-decoration: none;
+  text-align: center;
+}
+
+.fa-facebook{
+  background: #3B5998;  
+  color: white;
+}
+
+.fa-instagram{
+  background: #125688;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 800px){
+  .container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:1.6rem
+      }
+
+    .container img {
+      margin: 0;
+    }
+
+    
+
+  .container>div {
+    max-width: 50%;
+  
+      }
+
+
+
+  .flex-part {
+    padding-top: 2rem;
+    display:flex;
+    flex-direction: column;
+      }
+
+  .part1 div {
+        align-items: flex-start;
+        flex: 1;
+      }
+
+
+}
+
+
+
+
+
+
+
+
+
+
